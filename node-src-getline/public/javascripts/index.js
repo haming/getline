@@ -10,6 +10,7 @@ $(document).ready(function () {
                 }
                 $.post("/getText",text,function (val) {
                     console.log(val);
+                    $("#showCode").text(val)
                 })
             })
         },
