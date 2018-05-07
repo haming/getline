@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery-weui.min.css">
+    <link rel="stylesheet" href="stylesheets/weui.min.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
-    <script src="javascripts/jquery.min.js"></script>
+
+
+    <script src="javascripts/jquery-1.12.0.min.js"></script>
+    <script src="javascripts/jquery-weui.min.js"></script>
+    <script src="dist/js/swiper.min.js"></script>
     <script src="javascripts/index.js"></script>
 </head>
 <body>
@@ -18,9 +25,18 @@
 
 </div>
 
-<div class="container">
-    <input type="checkbox" id="cbtest">
-    <label for="cbtest" class="check-box"></label>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background: #2B81AF">slider1</div>
+        <div class="swiper-slide" style="background: #af715c">slider2</div>
+        <div class="swiper-slide" style="background: #31af7c">slider3</div>
+    </div>
 </div>
+
+
+<!--<div class="container">-->
+    <!--<input type="checkbox" id="cbtest">-->
+    <!--<label for="cbtest" class="check-box"></label>-->
+<!--</div>-->
 </body>
 </html>
